@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+<h1>注册</h1>
+<!--method
+    get不安全
+    post安全
+ -->
+<form action="http://localhost:63342/html-css-js/.idea/html/%E6%96%87%E6%9C%AC%E6%A0%87%E7%AD%BE.html?_ijt=3gjkh156ffq936r7d9srgt3tpt" method="get">
+<!--    文本输入框-->
+
+    <p>账户 <input type="text" name="username"></p>
+    <p>密码 <input type="password" name="pwd"> </p>
+</form>
+<form>
+    用户名：<input type="text" name="username" placeholder="请输入用户名称" maxlength="12" size="8">
+    密码：<input type="password" name="pwd" maxlength="12" size="8" required><br>
+    <p> 兴趣爱好 <br>
+        户外运动<input type="checkbox" name="check1" value="value1"><br>
+        足球<input type="checkbox" name="check2" value="value2">
+    </p>
+    <p>
+         <input type="button" name="确定" value="确定">
+    </p>
+    <p>
+        1<input type="radio" name="1" value="1">
+        2<input type="radio" name="1" value="2">
+        3<input type="radio" name="1" value="3">
+    </p>
+    <p>
+        <input type="submit"><br>
+        <input type="reset">
+    </p>
+    <p>
+        <input type="file" name="file">
+    </p>
+    <p>
+        <input type="email" name="email">
+        <input type="url" name="url">
+        <input type="number" name="number" max="100" min="1" step="1">
+        <input type="range">
+        <input type="submit">
+    </p>
+    <p>
+        <input type="search" name="search">
+    </p>
+
+</form>
+</body>
+</html>
